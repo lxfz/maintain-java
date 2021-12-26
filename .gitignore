@@ -1,6 +1,7 @@
 ompiled class file
 .idea/
 *.class
+*/target/*
 
 # Log file
 *.log

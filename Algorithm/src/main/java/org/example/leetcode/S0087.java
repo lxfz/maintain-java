@@ -8,41 +8,41 @@ import java.util.Map;
 
 public class S0087 {
 
-  public boolean isScramble_01_fail(String s1, String s2) {
-
-    ArrayList<ArrayList<HashSet<String>>> f = new ArrayList<>();
-    int len = s2.length();
-    for(int i=0; i<len ;i++) {
-      f.add(new ArrayList<>());
-      for(int j=0; j<len; j++) {
-        f.get(i).add(new HashSet<>());
-      }
-    }
-
-    for(int i=0; i<len; i++) {
-      f.get(i).get(i).add(Character.toString(s2.charAt(i)));
-    }
-
-    int j = 0;
-    for(len=1; len<=s2.length(); len++) {
-      for(int i=0; i<s2.length() - len + 1; i++) {
-        j = i + len - 1;
-        for(int k=i; k<j; k++) {
-          for(String a : f.get(i).get(k)) {
-            for(String b : f.get(k+1).get(j)) {
-              f.get(i).get(j).add(a + b);
-              f.get(i).get(j).add(b + a);
-            }
-          }
-        }
-      }
-    }
-    for(String s : f.get(0).get(s2.length()-1)) {
-      if(s.equals(s1)) return true;
-      // System.out.println(s);
-    }
-    return false;
-  }
+//  public boolean isScramble_01_fail(String s1, String s2) {
+//
+//    ArrayList<ArrayList<HashSet<String>>> f = new ArrayList<>();
+//    int len = s2.length();
+//    for(int i=0; i<len ;i++) {
+//      f.add(new ArrayList<>());
+//      for(int j=0; j<len; j++) {
+//        f.get(i).add(new HashSet<>());
+//      }
+//    }
+//
+//    for(int i=0; i<len; i++) {
+//      f.get(i).get(i).add(Character.toString(s2.charAt(i)));
+//    }
+//
+//    int j = 0;
+//    for(len=1; len<=s2.length(); len++) {
+//      for(int i=0; i<s2.length() - len + 1; i++) {
+//        j = i + len - 1;
+//        for(int k=i; k<j; k++) {
+//          for(String a : f.get(i).get(k)) {
+//            for(String b : f.get(k+1).get(j)) {
+//              f.get(i).get(j).add(a + b);
+//              f.get(i).get(j).add(b + a);
+//            }
+//          }
+//        }
+//      }
+//    }
+//    for(String s : f.get(0).get(s2.length()-1)) {
+//      if(s.equals(s1)) return true;
+//      // System.out.println(s);
+//    }
+//    return false;
+//  }
 
 
   public boolean isScramble_TLE(String s1, String s2) {
