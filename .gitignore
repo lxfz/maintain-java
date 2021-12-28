@@ -2,6 +2,7 @@ ompiled class file
 .idea/
 *.class
 */target/*
+.DS_Store
 
 # Log file
 *.log
