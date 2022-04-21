@@ -20,6 +20,7 @@
         <module>JavaWeb</module>
         <module>MyBatis</module>
         <module>ssmbuild</module>
+        <module>Spring-MyBatis</module>
     </modules>
 
     <name>maintain-java</name>

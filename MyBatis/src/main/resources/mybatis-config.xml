@@ -13,7 +13,7 @@
 <!--    </settings>-->
 
     <typeAliases>
-        <package name="com.sql.pojo"/>
+        <package name="com.sm.pojo"/>
     </typeAliases>
 
     <environments default="development">
@@ -29,6 +29,6 @@
     </environments>
 
     <mappers>
-        <mapper resource="com/sql/mapper/UserMapper.xml"/>
+        <mapper resource="com/sm/mapper/UserMapper.xml"/>
     </mappers>
 </configuration>
