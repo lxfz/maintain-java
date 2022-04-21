@@ -19,6 +19,7 @@
         <module>MultiThread</module>
         <module>JavaWeb</module>
         <module>MyBatis</module>
+        <module>ssmbuild</module>
     </modules>
 
     <name>maintain-java</name>
