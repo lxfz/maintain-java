@@ -21,6 +21,8 @@
         <module>MyBatis</module>
         <module>ssmbuild</module>
         <module>Spring-MyBatis</module>
+        <module>spring-web-mvc</module>
+        <module>SpringMVC</module>
     </modules>
 
     <name>maintain-java</name>
