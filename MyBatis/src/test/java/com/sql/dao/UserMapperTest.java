@@ -64,5 +64,33 @@ public class UserMapperTest {
     session.commit(); //提交事务,重点!不写的话不会提交到数据库 session.close();
   }
 
+  @Test
+  public void tsetFirstLevelCache() {
+    //获取SqlSession连接 UserMapper mapper = session.getMapper(UserMapper.class);
+    // 一级缓存只在sqlSession中有效
+    SqlSession session = MybatisUtils.getSession();
+    SqlSession session2 = MybatisUtils.getSession();
+
+    UserMapper mapper = session.getMapper(UserMapper.class);
+    UserMapper mapper2 = session2.getMapper(UserMapper.class);
+
+    User user = mapper.selectUserById(1);
+    System.out.println(user);
+//    只有会话提交或者关闭以后，一级缓存中的数据才会转到二级缓存中
+//    session.close();
+
+    // 缓存顺序
+    // 1、先看一级缓存中有没有
+    // 2、再看二级缓存中有没有
+    // 3、查询数据库
+
+    User user2 = mapper2.selectUserById(1);
+    System.out.println(user2);
+    System.out.println(user == user2);
+
+    session.close();
+    session2.close();
+  }
+
 
 }
