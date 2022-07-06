@@ -10,6 +10,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.concurrent.ConcurrentHashMap;
 
+import javax.annotation.PostConstruct;
+
 public class ApplicationContext {
 
   private Class configClass;
@@ -99,7 +101,7 @@ public class ApplicationContext {
     }
   }
 
-  private Object creatBean(String beanName, BeanDefinition beanDefinition) {
+  private Object  creatBean(String beanName, BeanDefinition beanDefinition) {
     Class clazz = beanDefinition.getType();
     // 无参构造
     try {

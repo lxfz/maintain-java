@@ -51,13 +51,14 @@ public class UserService {
 		user.setCreatedAt(System.currentTimeMillis());
 		KeyHolder holder = new GeneratedKeyHolder();
 		if (1 != jdbcTemplate.update((conn) -> {
-			var ps = conn.prepareStatement("INSERT INTO users(email,password,name,createdAt) VALUES(?,?,?,?)",
-					Statement.RETURN_GENERATED_KEYS);
-			ps.setObject(1, user.getEmail());
-			ps.setObject(2, user.getPassword());
-			ps.setObject(3, user.getName());
-			ps.setObject(4, user.getCreatedAt());
-			return ps;
+//			var ps = conn.prepareStatement("INSERT INTO users(email,password,name,createdAt) VALUES(?,?,?,?)",
+//					Statement.RETURN_GENERATED_KEYS);
+//			ps.setObject(1, user.getEmail());
+//			ps.setObject(2, user.getPassword());
+//			ps.setObject(3, user.getName());
+//			ps.setObject(4, user.getCreatedAt());
+//			return ps;
+			return null;
 		}, holder)) {
 			throw new RuntimeException("Insert failed.");
 		}

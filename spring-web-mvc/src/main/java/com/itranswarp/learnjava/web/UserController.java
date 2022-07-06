@@ -49,7 +49,8 @@ public class UserController {
 			User user = userService.register(email, password, name);
 			logger.info("user registered: {}", user.getEmail());
 		} catch (RuntimeException e) {
-			return new ModelAndView("register.html", Map.of("email", email, "error", "Register failed"));
+//			return new ModelAndView("register.html", Map.of("email", email, "error", "Register failed"));
+			return null;
 		}
 		return new ModelAndView("redirect:/signin");
 	}
@@ -70,7 +71,8 @@ public class UserController {
 			User user = userService.signin(email, password);
 			session.setAttribute(KEY_USER, user);
 		} catch (RuntimeException e) {
-			return new ModelAndView("signin.html", Map.of("email", email, "error", "Signin failed"));
+//			return new ModelAndView("signin.html", Map.of("email", email, "error", "Signin failed"));
+			return null;
 		}
 		return new ModelAndView("redirect:/profile");
 	}
@@ -81,7 +83,8 @@ public class UserController {
 		if (user == null) {
 			return new ModelAndView("redirect:/signin");
 		}
-		return new ModelAndView("profile.html", Map.of("user", user));
+//		return new ModelAndView("profile.html", Map.of("user", user));
+		return null;
 	}
 
 	@GetMapping("/signout")
