@@ -106,7 +106,7 @@ public class ApplicationContext {
     // 无参构造
     try {
       Object instance = clazz.getConstructor().newInstance();
-
+ 
       // 依赖注入
       for (Field field : clazz.getDeclaredFields()) {
         if (field.isAnnotationPresent(Autowired.class)) {

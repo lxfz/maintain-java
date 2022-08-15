@@ -18,7 +18,7 @@ public class XiaofeiBeanPostProcessor implements BeanPostProcessor {
   }
 
   @Override
-  public Object postProcessAfterInitialization(String beanName, Object bean) {
+  public Object  postProcessAfterInitialization(String beanName, Object bean) {
     if (beanName.equals("userService")) {
 
       System.out.println("XiaofeiBeanPostProcessor:postProcessAfterInitialization ");
