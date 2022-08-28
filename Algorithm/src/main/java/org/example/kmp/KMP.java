@@ -3,7 +3,7 @@ package org.example.kmp;
 public class KMP {
 
   /**
-   * 构造前缀表
+ * 构造前缀表
    *
    * @param pattern 匹配的字符串
    * @param prefix  prefix table

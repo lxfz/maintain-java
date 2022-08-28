@@ -28,5 +28,6 @@ public class AcrossTheGalaxy {
       }
     }
     System.out.printf("%.4f", ans/2);
+    in.close();
   }
 }

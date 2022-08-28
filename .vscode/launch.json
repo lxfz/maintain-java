@@ -1,0 +1,1498 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "org.example.App",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch HammingDistance",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220509_BitManipunation.HammingDistance",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseBits",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220509_BitManipunation.ReverseBits",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleNumber",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220509_BitManipunation.SingleNumber",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciNumber",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220516_DP_O1.FibonacciNumber",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch HouseRobber",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220516_DP_O1.HouseRobber",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSubarray",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220516_DP_O1.MaximumSubarray",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch BestTeamWithNoConflicts",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220605_DP_Package01.BestTeamWithNoConflicts",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoinChange",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220605_DP_Package01.CoinChange",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch OnesAndZeroes",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220605_DP_Package01.OnesAndZeroes",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch PartitionEqualSubsetSum",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220605_DP_Package01.PartitionEqualSubsetSum",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxAreaOfIsland",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220614_DFS.MaxAreaOfIsland",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfProvinces",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220614_DFS.NumberOfProvinces",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutations",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220620_DFS.Permutations",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordSearch",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220620_DFS.WordSearch",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestNiceSubstring",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220627_String.LongestNiceSubstring",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumChangesToMakeAlternatingBinaryString",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220627_String.MinimumChangesToMakeAlternatingBinaryString",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumChangesToMakeAlternatingBinaryString2",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220627_String.MinimumChangesToMakeAlternatingBinaryString2",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveAllAdjacentDuplicatesInString",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220711_Stacks.RemoveAllAdjacentDuplicatesInString",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateImage",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220725.RotateImage",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecodeWays",
+            "request": "launch",
+            "mainClass": "org.example.RWTH.R20220808.DecodeWays",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch AcrossTheGalaxy",
+            "request": "launch",
+            "mainClass": "org.example.baidu.AcrossTheGalaxy",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch LcmGcd",
+            "request": "launch",
+            "mainClass": "org.example.baidu.LcmGcd",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateParentheses",
+            "request": "launch",
+            "mainClass": "org.example.dp.GenerateParentheses",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetMaximumInGeneratedArray",
+            "request": "launch",
+            "mainClass": "org.example.dp.GetMaximumInGeneratedArray",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterleavingString",
+            "request": "launch",
+            "mainClass": "org.example.dp.InterleavingString",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSubarray(1)",
+            "request": "launch",
+            "mainClass": "org.example.dp.MaximumSubarray",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinCostClimbingStairs",
+            "request": "launch",
+            "mainClass": "org.example.dp.MinCostClimbingStairs",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch PassMessage",
+            "request": "launch",
+            "mainClass": "org.example.dp.PassMessage",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch PredictTheWinner",
+            "request": "launch",
+            "mainClass": "org.example.dp.PredictTheWinner",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch ABB",
+            "request": "launch",
+            "mainClass": "org.example.dp.PrefixSum.ABB",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch JumpGame",
+            "request": "launch",
+            "mainClass": "org.example.dp.PrefixSum.JumpGame",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrefixSum",
+            "request": "launch",
+            "mainClass": "org.example.dp.PrefixSum.PrefixSum",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrefixSum2D",
+            "request": "launch",
+            "mainClass": "org.example.dp.PrefixSum.PrefixSum2D",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubstringWithLargestVariance",
+            "request": "launch",
+            "mainClass": "org.example.dp.SubstringWithLargestVariance",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordBreak",
+            "request": "launch",
+            "mainClass": "org.example.dp.WordBreak",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch A0659SplitArrayintoConsecutiveSubsequences",
+            "request": "launch",
+            "mainClass": "org.example.dp.all.A0659SplitArrayintoConsecutiveSubsequences",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoinChange(1)",
+            "request": "launch",
+            "mainClass": "org.example.dp.coin.CoinChange",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Difference1D",
+            "request": "launch",
+            "mainClass": "org.example.dp.difference.Difference1D",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountNumbersWithUniqueDigits",
+            "request": "launch",
+            "mainClass": "org.example.dp.digital.CountNumbersWithUniqueDigits",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumbersAtMostNGivenDigitSet",
+            "request": "launch",
+            "mainClass": "org.example.dp.digital.NumbersAtMostNGivenDigitSet",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch BestTimetoBuyandSellStock",
+            "request": "launch",
+            "mainClass": "org.example.dp.linear.BestTimetoBuyandSellStock",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch BestTimetoBuyandSellStockIII",
+            "request": "launch",
+            "mainClass": "org.example.dp.linear.BestTimetoBuyandSellStockIII",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch BestTimetoBuyandSellStockwithCooldown",
+            "request": "launch",
+            "mainClass": "org.example.dp.linear.BestTimetoBuyandSellStockwithCooldown",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecodeWays(1)",
+            "request": "launch",
+            "mainClass": "org.example.dp.linear.DecodeWays",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciSequence",
+            "request": "launch",
+            "mainClass": "org.example.dp.linear.FibonacciSequence",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumDifficultyofaJobSchedule",
+            "request": "launch",
+            "mainClass": "org.example.dp.linear.MinimumDifficultyofaJobSchedule",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniqueBinarySearchTrees",
+            "request": "launch",
+            "mainClass": "org.example.dp.linear.UniqueBinarySearchTrees",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "org.example.dp.palindrome.LongestPalindromicSubstring",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeMaximumPathSum",
+            "request": "launch",
+            "mainClass": "org.example.dp.tree.BinaryTreeMaximumPathSum",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaseConversion",
+            "request": "launch",
+            "mainClass": "org.example.huawei.BaseConversion",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomNumbers",
+            "request": "launch",
+            "mainClass": "org.example.huawei.RandomNumbers",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch SodaBottle",
+            "request": "launch",
+            "mainClass": "org.example.huawei.SodaBottle",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch G2018RoundA01",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2018RoundA01",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch G2020RoundA01",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundA01",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch G2020RoundA02",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundA02",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution1",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundB.Solution1",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution2",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundB.Solution2",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution3",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundB.Solution3",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution4",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundB.Solution4",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution1(1)",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundG.Solution1",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution2(1)",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundG.Solution2",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution3(1)",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundG.Solution3",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution4(1)",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundG.Solution4",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch SolutionTest",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundG.SolutionTest",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution01",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundH.Solution01",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution02",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundH.Solution02",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution03",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundH.Solution03",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution04",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundH.Solution04",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution05",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2020RoundH.Solution05",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution1(2)",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2021A.Solution1",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution1(3)",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2021F.Solution1",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution2(2)",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2021F.Solution2",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution3(2)",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2021F.Solution3",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution4(2)",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2021F.Solution4",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch A01",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2022RoundD.A01",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch A02",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2022RoundD.A02",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch A03",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2022RoundD.A03",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch A04",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.G2022RoundD.A04",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S2020RoundA03",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.S2020RoundA03",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S2020RoundA04",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.S2020RoundA04",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "org.example.kickstart.Solution",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch KMP",
+            "request": "launch",
+            "mainClass": "org.example.kmp.KMP",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch KmpTest",
+            "request": "launch",
+            "mainClass": "org.example.kmp.KmpTest",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch A1431",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.A1431",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch A",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.BiweeklyContest081.A",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch B",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.BiweeklyContest081.B",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch C",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.BiweeklyContest081.C",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch D",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.BiweeklyContest081.D",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution1(4)",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.BiweeklyContest37.Solution1",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution2(3)",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.BiweeklyContest37.Solution2",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution3(3)",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.BiweeklyContest37.Solution3",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntegerReplacement",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.IntegerReplacement",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.Main",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0005",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0005",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0010",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0010",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0020_Valid_Parentheses",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0020_Valid_Parentheses",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0029",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0029",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0032",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0032",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0044",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0044",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0053",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0053",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0062",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0062",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0063",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0063",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0064",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0064",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0070",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0070",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0072",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0072",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0074",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0074",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0085",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0085",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0087",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0087",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0091",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0091",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0096",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0096",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0097",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0097",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0115",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0115",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0120",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0120",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0123",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0123",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0132",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0132",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0139",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0139",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0152",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0152",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0174",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0174",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0188",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0188",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0264",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0264",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0312",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0312",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0322",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0322",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0343",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0343",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0368",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0368",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0518",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0518",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0564",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0564",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0866",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0866",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0902",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0902",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0980",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S0980",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1086",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1086",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1108",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1108",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1342",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1342",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1399",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1399",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1508",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1508",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1509",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1509",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1510",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1510",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1512",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1512",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1513",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1513",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1514",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1514",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1582",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1582",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1583",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1583",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1584",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1584",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1585",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1585",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1592",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1592",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1609",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.S1609",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch A(1)",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.SFTech.A",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch B(1)",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.SFTech.B",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch C(1)",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.SFTech.C",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch D(1)",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.SFTech.D",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch E",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.SFTech.E",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution0001",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.Solution0001",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution0004",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.Solution0004",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution0066",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.Solution0066",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1614",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.WeeklyContest0210.S1614",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1615",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.WeeklyContest0210.S1615",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1616",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.WeeklyContest0210.S1616",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S1617",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.WeeklyContest0210.S1617",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch A(2)",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.WeeklyContest0293.A",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch B(2)",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.WeeklyContest0293.B",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch C(2)",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.WeeklyContest0293.C",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch D(2)",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.WeeklyContest0293.D",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch S0098",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.dfs.S0098",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationSequence",
+            "request": "launch",
+            "mainClass": "org.example.leetcode.maths.PermutationSequence",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMedianFromDataStream",
+            "request": "launch",
+            "mainClass": "org.example.median.FindMedianFromDataStream",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch DifferentWaysToAddParentheses",
+            "request": "launch",
+            "mainClass": "org.example.recursion.DifferentWaysToAddParentheses",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch SegTree",
+            "request": "launch",
+            "mainClass": "org.example.segtree.SegTree",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch Trie",
+            "request": "launch",
+            "mainClass": "org.example.trie.Trie",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch TopSort",
+            "request": "launch",
+            "mainClass": "org.example.vivo2021.TopSort",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpaceRemover",
+            "request": "launch",
+            "mainClass": "test.SpaceRemover",
+            "projectName": "Algorithm"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(1)",
+            "request": "launch",
+            "mainClass": "org.example.App",
+            "projectName": "Basic"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "org.example.Hello",
+            "projectName": "Basic"
+        },
+        {
+            "type": "java",
+            "name": "Launch IO",
+            "request": "launch",
+            "mainClass": "org.example.io.IO",
+            "projectName": "Basic"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(2)",
+            "request": "launch",
+            "mainClass": "org.example.App",
+            "projectName": "DatabaseConnPool"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(3)",
+            "request": "launch",
+            "mainClass": "org.example.App",
+            "projectName": "DesignPattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClassExample",
+            "request": "launch",
+            "mainClass": "org.example.ClassExample",
+            "projectName": "DesignPattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch DynamicProxy",
+            "request": "launch",
+            "mainClass": "org.example.DynamicProxy",
+            "projectName": "DesignPattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "org.example.behavioral.chainofesponsibility.Client",
+            "projectName": "DesignPattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch WeatherStation",
+            "request": "launch",
+            "mainClass": "org.example.behavioral.observer.WeatherStation",
+            "projectName": "DesignPattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "org.example.factory.abstractx.Main",
+            "projectName": "DesignPattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "org.example.factory.method.Main",
+            "projectName": "DesignPattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(3)",
+            "request": "launch",
+            "mainClass": "org.example.factory.simple.Main",
+            "projectName": "DesignPattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoggerUtils",
+            "request": "launch",
+            "mainClass": "day02.LoggerUtils",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestInitialization",
+            "request": "launch",
+            "mainClass": "day04.bean.TestInitialization",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestInjection",
+            "request": "launch",
+            "mainClass": "day04.bean.TestInjection",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestScope",
+            "request": "launch",
+            "mainClass": "day04.bean.TestScope",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestAutoConfiguration",
+            "request": "launch",
+            "mainClass": "day04.boot.TestAutoConfiguration",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestConfiguration",
+            "request": "launch",
+            "mainClass": "day04.boot.TestConfiguration",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDeferredImport",
+            "request": "launch",
+            "mainClass": "day04.boot.TestDeferredImport",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestExcludeFilter",
+            "request": "launch",
+            "mainClass": "day04.boot.TestExcludeFilter",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestImport",
+            "request": "launch",
+            "mainClass": "day04.boot.TestImport",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestBeanDefinition",
+            "request": "launch",
+            "mainClass": "day04.refresh.TestBeanDefinition",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestBeanPostProcessor",
+            "request": "launch",
+            "mainClass": "day04.refresh.TestBeanPostProcessor",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestEnvironment",
+            "request": "launch",
+            "mainClass": "day04.refresh.TestEnvironment",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestService1",
+            "request": "launch",
+            "mainClass": "day04.tx.app.service.TestService1",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestService2",
+            "request": "launch",
+            "mainClass": "day04.tx.app.service.TestService2",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestService3",
+            "request": "launch",
+            "mainClass": "day04.tx.app.service.TestService3",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestService4",
+            "request": "launch",
+            "mainClass": "day04.tx.app.service.TestService4",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestService5",
+            "request": "launch",
+            "mainClass": "day04.tx.app.service.TestService5",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestService6",
+            "request": "launch",
+            "mainClass": "day04.tx.app.service.TestService6",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestService7",
+            "request": "launch",
+            "mainClass": "day04.tx.app.service.TestService7",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestAnnotationSource",
+            "request": "launch",
+            "mainClass": "day04.tx.other.TestAnnotationSource",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSpringTx",
+            "request": "launch",
+            "mainClass": "day04.tx.other.TestSpringTx",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestTx",
+            "request": "launch",
+            "mainClass": "day04.tx.other.TestTx",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(4)",
+            "request": "launch",
+            "mainClass": "org.example.App",
+            "projectName": "MultiThread"
+        },
+        {
+            "type": "java",
+            "name": "Launch Runnables",
+            "request": "launch",
+            "mainClass": "org.example.Runnables",
+            "projectName": "MultiThread"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShareVariable",
+            "request": "launch",
+            "mainClass": "org.example.ShareVariable",
+            "projectName": "MultiThread"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCallable",
+            "request": "launch",
+            "mainClass": "org.example.TestCallable",
+            "projectName": "MultiThread"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestLambda",
+            "request": "launch",
+            "mainClass": "org.example.TestLambda",
+            "projectName": "MultiThread"
+        },
+        {
+            "type": "java",
+            "name": "Launch Threads",
+            "request": "launch",
+            "mainClass": "org.example.Threads",
+            "projectName": "MultiThread"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ticket",
+            "request": "launch",
+            "mainClass": "org.example.Ticket",
+            "projectName": "MultiThread"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppConfig",
+            "request": "launch",
+            "mainClass": "com.itranswarp.learnjava.AppConfig",
+            "projectName": "spring-web-mvc"
+        }
+    ]
+}

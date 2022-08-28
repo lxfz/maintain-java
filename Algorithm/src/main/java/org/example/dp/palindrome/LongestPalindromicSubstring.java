@@ -13,7 +13,8 @@ public class LongestPalindromicSubstring {
       // 左
       for (int i = 0; i < s.length(); i++) {
         int j = i + L - 1;
-        if (j >= s.length()) break;
+        if (j >= s.length())
+          break;
         if (s.charAt(i) == s.charAt(j)) {
           if (L == 2) {
             dp[i][j] = true;
